@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberFramework" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="com.vtiger.runner.TestRunner" time="14.469">
+    <testsuite name="Lead functionality" time="9.227">
+      <testcase name="Create lead with mandatory fields" classname="Lead functionality" time="9.227">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enters valid userid and password' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("user enters valid userid and password")
+public void user_enters_valid_userid_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Login functionality" time="5.237">
+      <testcase name="Valid login" classname="Login functionality" time="5.237">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'user enters valid userid and password' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("user enters valid userid and password")
+public void user_enters_valid_userid_and_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

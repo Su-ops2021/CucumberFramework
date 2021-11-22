@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberFramework" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.vtiger.runner.TestRunner" time="25.593">
+    <testsuite name="Login functionality" time="25.593">
+      <testcase name="Valid login" classname="Login functionality" time="16.2"/>
+      <testcase name="Invalid login" classname="Login functionality" time="9.393"/>
+    </testsuite>
+  </testsuite>
+</testrun>
